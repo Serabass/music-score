@@ -1,5 +1,10 @@
+@font-face {
+  font-family: Music;
+  src: url('Guitar Pro 5.ttf');
+}
+
 .App {
-  text-align: center;
+  height: 100vh;
 }
 
 .App-logo {
@@ -35,4 +40,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.score {
+  font-family: Music, sans-serif;
+  font-size: 140px;
+  height: 100vh;
+  box-shadow: 0 0 10px;
+  margin: 10px;
+}
+
+.score.bg {
+  background-image: url('./bg.png');
+  background-repeat: no-repeat;
 }
